@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+    <body>
+        <div id="root">{{{ html }}}</div>
+        <script>window.__INIT_STATE__ = JSON.parse('{{#initState}}{{{ initState }}}{{/initState}}{{^initState}}{}{{/initState}}');</script>
+        <script src="{{{ prefix }}}/bundle.js"></script>
+    </body>
+</html>
